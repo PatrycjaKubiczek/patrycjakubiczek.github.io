@@ -1,7 +1,106 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.ico" sizes="16x16">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="icon" src="./images/icon.png" sizes="16x16" type="image/png">
+    <script src="./js/jquery-3.1.0.min.js"></script>
+    <script src="./js/app.js"></script>
+    <meta name="description" content="Sprawdź gdzie możesz zjeść smaczny wege posiłek w Krakowie!">
+    <meta name="author" content="Patrycja Kubiczek">
+    
+    <title>Wege Kraków - Mapa wege miejsc</title>
+    
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="loader"></div>
+    <div id="main">
+        <!-- wrapping whole page for sidebar-->
+        <div id='container'>
+            <!-- wrapping page for navbar -->
+
+
+            <header>
+            <!-- sidebar -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn">&times;</a>
+                    
+                    <a href="places.html">Spis miejsc</a>
+                    <a href="about.html">O nas</a>
+                    <a href="#">Kontakt</a>
+                    <a href="https://www.facebook.com/WegeKrakow/" alt="Fanpage Wege Kraków">Facebook</a>
+                    
+                    <p id="sidenav-text">Wykonanie:
+                    <a href="https://pl.linkedin.com/in/patrycja-kubiczek
+                             ">Patrycja Kubiczek</a></p>
+                </div>
+                
+            <!-- navbar section-->
+                <nav>
+                    <p class="logo"><img class="img-logo" src="images/logo.png" alt="Logo Wege Kraków"></p>
+                    <span id="menu">[menu]</span>
+
+            <!--checkboxes section-->
+                    <div class='select'>
+                        Wybierz rodzaj miejsca:
+                        <label for="vegancheck">
+                            <input type="checkbox" id="vegancheck" checked>
+                            <span>Vegan</span>
+                        </label>
+
+                        <label for="veggiecheck">
+                            <input type="checkbox" id="veggiecheck" checked>
+                            <span>Wege</span>
+                        </label>
+
+                        <label for="othercheck">
+                            <input type="checkbox" id="othercheck" checked>
+                            <span>Opcje vegan i wege</span>
+                        </label>
+
+                        <label for="icecream">
+                            <input type="checkbox" id="icecream" checked>
+                            <span>Lody vegan</span>
+                        </label>
+                    </div>
+                    <input id="pac-input" class="controls" type="text" placeholder="Wpisz nazwę miejsca...">
+
+
+                </nav>
+
+            </header>
+
+
+
+        </div>
+        <section>
+<!-- map -->
+            <div id="map">
+            </div>
+
+        </section>
+    </div>
+    
+<!-- footer section-->    
+    <footer id="containerFooter">
+        <p class="legend">
+            <span>Legenda:</span>
+            <img src="images/marker-green.png">Wegańskie
+            <img src="images/marker-yellow.png"> Wegetariańskie
+            <img src="images/marker-red.png"> Opcje wegetariańskie/wegańskie
+            <img src="images/marker-blue.png">Lody wegańskie</p>
+    </footer>
+
+<!-- script for google maps api-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd6U2Jq15FiKxT1NCbYiuLOgJYqV_ZDDY">
+    </script>
+
 </body>
+
 </html>
