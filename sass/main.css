@@ -1,0 +1,199 @@
+/* line 1, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 5, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+/* line 10, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+h1 {
+  font-family: 'Poiret One', sans-serif;
+  color: #fff;
+  font-size: 6em;
+  padding: 40px;
+  text-align: center; }
+
+/* line 18, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+h2 {
+  font-family: 'Poiret One', sans-serif;
+  color: #fff;
+  font-size: 4em;
+  text-align: center; }
+
+/* line 25, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+h3 {
+  font-family: 'Poiret One', sans-serif;
+  line-height: 100px;
+  font-size: 2em; }
+
+/* line 31, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+a:link {
+  text-decoration: none;
+  color: black; }
+
+/* line 36, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+a:hover {
+  text-decoration: none;
+  color: steelblue; }
+
+/* line 41, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+a:visited {
+  text-decoration: none;
+  color: black; }
+
+/* line 47, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+/* line 56, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../../images/pexels-photo-196657.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  line-height: 100px;
+  color: #fff; }
+  /* line 68, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  header div {
+    padding-top: 10vh; }
+  /* line 71, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  header button {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 25px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 auto; }
+  /* line 79, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  header button:hover {
+    border: 2px solid darkgrey; }
+
+/* line 84, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+section {
+  padding: 50px 0; }
+
+/* line 88, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+nav {
+  text-align: center;
+  line-height: 50px; }
+  /* line 91, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  nav img {
+    padding: 50px 45px 0; }
+
+/* line 103, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+ul.menu li {
+  list-style-type: none;
+  display: inline-block;
+  color: darkgrey;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 0.5em;
+  padding: 20px;
+  font-size: 0.7em;
+  font-weight: 600; }
+
+/* line 116, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+hr {
+  border: 0;
+  border-top: 1px dotted lightgrey;
+  width: 100%; }
+
+/* line 123, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+.underline {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px; }
+
+/* line 129, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+p {
+  color: darkgrey;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 135, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+.profilepic {
+  border-radius: 50%;
+  height: 250px;
+  object-fit: cover;
+  float: left; }
+
+/* line 142, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+.about-text {
+  max-width: 60%;
+  margin: 0 auto; }
+  /* line 146, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  .about-text p {
+    line-height: 25px;
+    padding: 25px; }
+  /* line 151, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  .about-text img {
+    margin: 10px; }
+  /* line 154, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  .about-text button {
+    display: block;
+    background: #fff;
+    border: 1px dotted lightgrey;
+    padding: 20px;
+    margin: 0 auto; }
+  /* line 161, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  .about-text button:hover {
+    border: 1px solid lightgrey; }
+
+/* line 166, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+.works {
+  border: 1px solid lightgrey;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  object-fit: contain;
+  filter: grayscale(70%);
+  padding: 25px; }
+
+/* line 178, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+ul li {
+  list-style-type: none;
+  color: darkgrey; }
+
+/* line 184, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+.skills {
+  line-height: 50px; }
+  /* line 189, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  .skills li {
+    padding: 10px;
+    display: inline;
+    list-style-type: none;
+    border-bottom: 1px dotted lightgrey;
+    width: 100px;
+    height: 100px;
+    margin: 10px; }
+  /* line 199, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  .skills img {
+    line-height: 20px;
+    padding: 20px 20px 0px; }
+
+/* line 207, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+footer {
+  text-align: center;
+  padding: 2em; }
+  /* line 211, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+  footer p {
+    font-size: 0.8em;
+    color: lightgrey; }
+    /* line 214, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+    footer p a:link {
+      color: lightgrey; }
+    /* line 217, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+    footer p a:visited {
+      color: lightgrey; }
+    /* line 220, C:/Users/Patrycja/Desktop/programming/wstepny projekt portfolio/sass/partials/_base.scss */
+    footer p a:hover {
+      color: grey; }
+
+/*# sourceMappingURL=main.css.map */
