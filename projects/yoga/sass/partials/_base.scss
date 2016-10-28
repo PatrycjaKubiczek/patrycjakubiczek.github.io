@@ -77,9 +77,14 @@ h3 {
     font-weight: 900;
     padding: 20px;
 }
+
+h5 {
+    font-weight: 700;
+}
 .navbar-default {
     background-color: transparent;
     border: 0px;
+    height: 100px;
     img {
         float: left;
         margin: 10px;
@@ -165,6 +170,67 @@ p {
 //        }
 //    }
 //}
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+     height: 250px;
+     margin: 0 auto;
+  }
+
+.carousel-control.right {
+    background: transparent;
+}
+.carousel-control.left {
+    background: transparent;
+}
+//.carousel-inner {
+//    .item {
+//        img {
+//            opacity: 50%;
+//            z-index: 50;
+//        }
+//        
+//        display: inline-block;
+////        display: inline-block;
+//    }
+//}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+
 blockquote {
     border: 0;
     .quote {
@@ -203,10 +269,7 @@ blockquote {
             color: #aaaaaa;
             font-weight: bold;
         }
-        h4:hover {
-            color: #fff;
-            background-color: #66a900;
-        }
+        
     }
     .panel-footer {
         background-color: #fff;
@@ -218,14 +281,10 @@ blockquote {
             font-size: 14px;
             font-weight: bold;
         }
-        button:hover {
-            color: #66a900;
-            border-bottom: 1px solid #66a900;
-            border-radius: 0;
-            box-shadow: 0;
-        }
     }
 }
+
+
 .panel {
     button {
         background: none;
@@ -233,6 +292,20 @@ blockquote {
         width: auto;
     }
 }
+
+.panel:hover {
+    h4 {
+            color: #fff;
+            background-color: #66a900;
+        }
+    button {
+            color: #66a900;
+            border-bottom: 1px solid #66a900;
+            border-radius: 0;
+            box-shadow: 0;
+        }
+}
+
 footer {
     padding-bottom: 40px;
     li {

@@ -6,4 +6,11 @@ $(document).ready(function(){
           $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
         }
       });
+    
+     $('#Carousel').carousel({
+                interval:   1000
+            });
+    
+    
+    
     });
