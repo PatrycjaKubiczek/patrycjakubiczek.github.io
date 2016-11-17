@@ -91,6 +91,7 @@ nav {
     text-align: center;
     margin: 0 auto;
     border-bottom: 1px dotted lightgrey;
+    z-index: 2;
     ul.menu li {
         padding: 0 10px;
     }
@@ -187,9 +188,9 @@ float:left;
 overflow:hidden;
 position:relative;
 text-align:center;
-cursor:default;
-    
-    
+    cursor:default; {
+        
+    }
 }
 
 .hovereffect .overlay {
