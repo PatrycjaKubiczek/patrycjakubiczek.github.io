@@ -1,9 +1,14 @@
-.container {
-    width: 1000px;
-    margin: 0 auto;
-}
+//.container {
+//    width: 1000px;
+//    margin: 0 auto;
+//}
 .container-fluid {
     padding-top: 80px;
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
 }
 header {
     background-image: url(../images/header.png);
@@ -84,7 +89,7 @@ h5 {
 .navbar-default {
     background-color: transparent;
     border: 0px;
-    height: 100px;
+    
     img {
         float: left;
         margin: 10px;
@@ -113,6 +118,7 @@ h5 {
         }
     }
 }
+
 p {
     font-family: 'PT Serif', serif;
     font-size: 1.1em;
@@ -162,15 +168,6 @@ p {
         color: darkgreen;
     }
 }
-//ol {
-//    li {
-//        span {
-//            background-color: #66a900;
-//            border-radius: 50%;
-//        }
-//    }
-//}
-
 
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -184,17 +181,6 @@ p {
 .carousel-control.left {
     background: transparent;
 }
-//.carousel-inner {
-//    .item {
-//        img {
-//            opacity: 50%;
-//            z-index: 50;
-//        }
-//        
-//        display: inline-block;
-////        display: inline-block;
-//    }
-//}
 
 .carousel-fade {
     .carousel-inner {
