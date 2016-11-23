@@ -1,0 +1,206 @@
+/*
+div {
+    border: 1px solid red;
+}
+*/
+
+body {
+/*    line-height: 1.8;*/
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.container-fluid {
+    padding: 60px 80px;
+}
+
+
+
+.bg-col{
+    background: #F2F2F2;    
+}
+
+.jumbotron {
+    color: white;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    padding-top: 30vh;
+    line-height: 20px;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron h1 {
+/*    color: red;*/
+    font-family: 'Poiret One', cursive;
+    font-size: 10em !important;
+    font-weight: 800;
+}
+
+.jumbotron h1, p, a{
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron a, a:link, a:focus {
+    color: #fff;
+}
+
+.jumbotron img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+    transition: all 2s linear;
+}
+
+.jumbotron:hover img {
+    filter: brightness(80%);
+    
+} 
+
+.slide-down {
+    padding-top: 50px;
+    font-size: 2em;
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+.slide-down:hover {
+    padding-top: 50px;
+    font-size: 2em;
+    opacity: 1;
+}
+
+.darker {
+    position: absolute;
+}
+
+
+.navbar {
+    background: #342245;
+/*    opacity: 0.8;*/
+    border: 0;
+}
+
+.navbar a:link, .navbar-default .navbar-nav>li>a{
+    color: #fff;  
+    transition: 0.2s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+    background: #776688;
+/*    border-top: 1px solid white;*/
+    border-bottom: 1px solid white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   background: #776688; 
+}
+
+.navbar-default .navbar-toggle .icon-bar  {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #342245;
+    padding-bottom: 40px;
+    font-family: 'Poiret One', cursive;
+    font-size:3.5em;
+    font-weight: 600;
+    
+}
+
+h3 {
+    color: #342245;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+}
+
+
+.glyph-2x {
+    font-size: 2em;
+}
+
+.main-footer{
+ background: grey;   
+}
+
+.btn {
+    background: #342245;
+    transition: 0.2s ease;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.btn:link {
+    color: #fff;
+    
+}
+
+.btn:hover {
+    background: #776688;
+    color: #fff;
+}
+
+.thumbnail {
+    border: 0;
+}
+
+.img-works {
+    height: 400px;
+    object-fit: cover;
+    transition: 0.2s ease;
+    margin: 2%;
+}
+
+
+
+.img-works:hover {
+    opacity: 0.5;
+}
+
+.desc {
+    color: black;
+}
+
+footer {
+    color: #fff;
+}
+
+.img-team {
+    height: 150px;
+    border: 10px solid #fff
+}
+
+.panel {
+    transition: 0.2s ease;
+}
+
+.panel:hover {
+    -webkit-box-shadow: -1px 3px 37px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 3px 37px -1px rgba(0,0,0,0.15);
+    box-shadow: -1px 3px 37px -1px rgba(0,0,0,0.15);
+    border: 1px solid #342245;
+}
+
+/*
+.panel:hover .panel-heading{
+    
+}*/
+
+.panel p {
+/*    border-bottom: 1px solid lightgrey;*/
+    line-height: 40px;
+}
+
+.copy{
+    color: lightgrey;
+}
