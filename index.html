@@ -2,58 +2,69 @@
 <html>
 
 <head>
+   
     <meta charset="utf-8">
     <meta lang="pl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Old+Standard+TT" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel='icon' href='./images/mouse.png' sizes="16x16" type="image/png">
     <title>Junior Front-End Developer looking for job in Kraków!</title>
 </head>
 
 <body>
-    <!--       <div class="logo">Patrycja Kubiczek</div>-->
 
-
-    <header>
-        <div class="bg">
-            <div class="container">
-                <h2>Hello. I'm Patrycja Kubiczek</h2>
-                <h1>Junior Front-end Developer</h1>
-                <p>(website is currently in progress...)</p>
-                <button><a href="#about">find out more about me</a></button>
-            </div>
-    </header>
 
     <nav class="container">
         <ul class="menu">
-            <li><a href="#about">About me</a></li>|
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <img src="./images/imac.png">
-            <li><a href="#skills">Technologies</a></li>|
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <hr>
+
     </nav>
+
+    <header>
+
+        <div class="container">
+            <div class="heading">
+                <h1>Patrycja Kubiczek</h1>
+            </div>
+            <h2>Junior Front-end Developer</h2>
+            <button class="button">
+                <a href="#about">
+                    <p>Find out more</p>
+                    <img src="images/down-arrow.png" alt="Arrow Down"></a>
+            </button>
+        </div>
+    </header>
+
+
 
     <section class="container">
         <h3 id="about">About me</h3>
         <hr class="underline">
-        <article class="about-text">
+        <article class="aboutme-text">
             <img id="profilepic" src="./images/me.jpg" alt="Profile picture">
-            <p>Hi! My name is Patrycja Kubiczek and I am a graduate school program Coders Lab, where I completed an intensive course: "Become a Frontend Developer". Currently I am looking for a job in the IT industry and further career opportunities.</p>
-            <a href="https://github.com/PatrycjaKubiczek"><img src="./images/github.png"></a>
-            <a href="https://www.linkedin.com/in/patrycja-kubiczek"><img src="./images/linkedin.png"></a>
-            <h4>Download my CV</h4>
-            <button><a href="./cv/cv-patrycja-kubiczek-en.pdf">english</a></button>
-            <button><a href="./cv/cv-patrycja-kubiczek.pdf">polish</a></button>
+            <p>Hi! My name is Patrycja Kubiczek and I'm coding enthusiast. Recently I graduate from programming school Coders Lab, where I completed an intensive bootcamp course: "Become a Frontend Developer". Currently I am looking for a job and a place where I could improve my skills. You can find more information about me in my resume below.
+            </p>
+
+            <p class="resume">
+                <span>Download my CV:
+                <a href="./cv/cv-patrycja-kubiczek-en.pdf">english</a> | 
+                <a href="./cv/cv-patrycja-kubiczek.pdf">polish</a></span>
+            </p>
+
+
         </article>
     </section>
 
     <section class="container">
         <h3 id="portfolio">Portfolio</h3>
         <hr class="underline">
-
-<div class="portfolio-work">
+        
+        <div class="portfolio-work">
     <div class="hovereffect">
         <img class="img-responsive" src="./imgs/screenshoot7.png" alt="">
         <div class="overlay">
@@ -143,51 +154,27 @@
     </div>
 </div>
 
+
+
     </section>
 
-    <section class="container skills">
-        <h3 id="skills">Technical skills</h3>
+    <section class="container">
+        <h3 id="contact">Contact</h3>
         <hr class="underline">
-        <div>
-            <h4><img src="./images/coding.png"> During my work I'm using</h4>
-        </div>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>Photoshop</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Wordpress</li>
-            <li>RWD</li>
-            <li>Gulp</li>
-        </ul>
+        <p>Email: p.kubiczek(at)gmail.com</p>
+        <p><a href="https://www.linkedin.com/in/patrycja-kubiczek">Linkedin</a> //
+            <a href="https://github.com/PatrycjaKubiczek">GitHub</a></p>
 
-        <h4><img src="./images/thinking.png"> I'm still learning</h4>
-        <ul>
-            <li>PHP</li>
-        </ul>
+    </section>
 
-        <h4><img src="./images/robot-toy.png"> In future I will learn<h4>
-           <ul>
-               <li>Angular</li>
-            </ul>
-       </section>
-       
-       <section class="container">
-           <h3 id="contact">Contact</h3>
-           <hr class="underline">
-           <p>Email: p.kubiczek(at)gmail.com</p>
-           <p><a href="https://www.linkedin.com/in/patrycja-kubiczek">Linkedin</a> // 
-           <a href="https://github.com/PatrycjaKubiczek">GitHub</a></p>
-           
-       </section>
-       
-       <footer class="container">
-           <p>2016 | <a href="http://github.com/patrycjakubiczek">Patrycja Kubiczek</a></p>
-           <p> icons: <a href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlato Najdenovski</a>, <a href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> and <a href="http://www.flaticon.com/authors/freepik">Freepik</a> from www.flaticon.com </p>
-       </footer>
-    </body>
-    <script src="./js/jquery-3.1.0.min.js"></script>
-    <script src="./js/app.js"></script>
+    <footer>
+        <p>2016 | <a href="http://github.com/patrycjakubiczek">Patrycja Kubiczek</a></p>
+        <p> icons:  <a href="http://www.flaticon.com/authors/lucy-g" title="Lucy G">Lucy G</a> and <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+        
+        
+    </footer>
+</body>
+<script src="./js/jquery-3.1.0.min.js"></script>
+<script src="./js/app.js"></script>
+
 </html>

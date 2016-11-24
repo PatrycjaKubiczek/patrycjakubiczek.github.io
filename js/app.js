@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    console.log('działa');
+  //  console.log('działa');
     var nav = $('nav');
     var menu = $('.menu');
     //    Zmienna przechowująca pozycję (top) elementu o klasie menu
@@ -13,10 +13,10 @@ $(document).ready(function () {
         //        console.log(scrolling);
 
         if (top < scrolling) {
-            console.log('scroll part 2')
+         //   console.log('scroll part 2')
             menu.addClass('sticky');
         } else {
-            console.log('remove class');
+          //  console.log('remove class');
             menu.removeClass('sticky');
         }
     });
@@ -47,4 +47,6 @@ $(function() {
     }
   });
 });
+    
+   	
 });
