@@ -25,12 +25,12 @@
         <!--navigation desktop -->
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right list-unstyled list-inline">
-                <li><a href="#welcome">Welcome</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#testimonila">Testimonila</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#welcome">Welcome</a></li>
+                <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#about">About</a></li>
+                <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#features">Features</a></li>
+                <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#testimonila">Testimonila</a></li>
+                <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#pricing">Pricing</a></li>
+                <li><a  data-toggle="collapse" data-target=".navbar-collapse.in" href="#blog">Blog</a></li>
             </ul>
         </div>
     </nav>
@@ -38,7 +38,7 @@
     <header id="welcome">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 col-md-5 col-md-offset-2">
+                <div class="col-sm-12 col-md-5 col-md-offset-2 head-text">
                     <h1 class="heading"> Refresh yourself by yoga exercise</h1>
                     <p class="subheading">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
                 </div>
@@ -96,9 +96,10 @@
 
         <!--call-to-action-->
         <div class="shape2"></div>
-        <div class="container-fluid cta">
+        <div class="container-fluid cta-bg">
             <div class="row">
-                <div class="col-xs-12 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
+               <div class="cta-text">
+                   <div class="col-xs-12 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
                     <h2>Get your fitness back today</h2>
                     <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
                 </div>
@@ -108,6 +109,8 @@
                 <div class="col-xs-12 col-md-4 col-sm-4">
                     <button class="center-block">Get your free registration</button>
                 </div>
+               </div>
+                
             </div>
         </div>
 
@@ -161,10 +164,10 @@
                         <div class="col-md-12">
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <div class="col-md-4 col-md-offset-1 col-xs-3 col-xs-offset-1">
+                                    <div class="col-md-4 col-md-offset-1 col-xs-12">
                                         <img src="./images/client1.png" alt="Jenny" class="img-responsive center-block">
                                     </div>
-                                    <div class="col-md-6 col-xs-8">
+                                    <div class="col-md-6 col-xs-12">
                                         <blockquote>
                                             <p class="quote">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.. </p>
                                             <footer>
@@ -176,10 +179,10 @@
                                 </div>
 
                                 <div class="item">
-                                    <div class="col-md-4 col-md-offset-1 col-xs-3 col-xs-offset-1">
+                                    <div class="col-md-4 col-md-offset-1 col-xs-12">
                                         <img src="./images/client2.png" alt="Jack" class="img-responsive center-block">
                                     </div>
-                                    <div class="col-md-6 col-xs-8">
+                                    <div class="col-md-6 col-xs-12">
 
                                         <blockquote>
                                             <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe delectus veniam magnam voluptates eum quisquam error a. Iure deserunt qui eos amet ipsam repellendus, suscipit, sapiente, doloremque esse dicta sequi!</p>
@@ -192,10 +195,10 @@
                                 </div>
 
                                 <div class="item">
-                                    <div class="col-md-4 col-md-offset-1 col-xs-3 col-xs-offset-1">
+                                    <div class="col-md-4 col-md-offset-1 col-xs-12">
                                         <img src="./images/client3.png" alt="John" class="img-responsive center-block">
                                     </div>
-                                    <div class="col-md-6 col-xs-8">
+                                    <div class="col-md-6 col-xs-12">
                                         <blockquote>
                                             <p class="quote">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptatum laboriosam distinctio! Maiores delectus qui laudantium, nostrum iure. Eligendi, aut, reiciendis! Deserunt quasi omnis velit molestiae, cumque, pariatur laboriosam modi?lisi.. </p>
                                             <footer>
@@ -289,8 +292,9 @@
 
 
     <div class="shape3"></div>
-    <div class="container-fluid cta">
+    <div class="container-fluid cta-bg">
         <div class="row">
+           <div class="cta-text">
             <div class="col-xs-12 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
                 <h2>Get your fitness back today</h2>
                 <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
@@ -300,6 +304,7 @@
             </div>
             <div class="col-xs-12 col-md-4 col-sm-4">
                 <button class="center-block">Get your free registration</button>
+            </div>
             </div>
         </div>
     </div>
