@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+   font-family: 'Open Sans', sans-serif; 
+}
+
+header {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+header ul{
+    margin-top: 15px;
+    float: right;
+    display: inline-block;
+}
+
+header nav li {
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    width: 50px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.clearfix:after {
+        content:'';
+        display:block;
+        clear:both;
+}
+
+header button {
+    font-size:16px, 
+    color: white;
+    background-color:#e92121;
+    margin: 10px;
+    padding: 10px 30px;
+    border: none;
+}
+
+button a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+    
+}
+
+header h1 {
+    font-size: 60px;
+    color: white;
+    width: 600px;
+    padding: 0px;
+    font-weight: normal;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+header h2{
+    font-size:24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.headertext{
+    margin: 100px;
+}
+
+.content-left{
+    float: left;
+    width: 40%;
+    display: inline-block;
+    margin: 70px 20px;
+}
+
+.content-left h2 {
+    font-size: 48px; 
+    color: #464646;
+    text-transform: uppercase;
+    
+}
+
+.content-right{
+    font-size: 16px; 
+    color: #b7b7b7;
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    margin: 70px 20px;
+    
+}
+
+footer {
+    background-color: #141414;
+}
+
+.foot{
+    display: inline-block;
+    float: left;}
+
+footer nav {
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+    color: #474747;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer nav li {
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 10px;}
+
+.copy {
+    font-size: 16px; 
+    color: #353434;
+    float: right;
+    text-align: right
+}
+
+footer a:link {
+    color: #474747;}
+
+footer a:hover{
+    color: white;
+}

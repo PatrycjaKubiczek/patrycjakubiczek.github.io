@@ -14,6 +14,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    max-height: 1200px;
 }
 //headings
 h1 {
@@ -87,6 +88,7 @@ header {
     background: linear-gradient( rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.45)), url(../images/95cdfeef.jpg);
     background-size: cover;
     min-height: 100vh;
+    max-height: 2000px;
     text-align: center;
     line-height: 100px;
     color: #000;
