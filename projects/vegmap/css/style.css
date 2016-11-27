@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+/*    border: 1px solid blue;*/
 }
 html,
 body {
+    font-size: 16px;
     min-height: 100%;
     margin: 0;
     background-color: #ffffff;
@@ -35,7 +37,6 @@ body {
     z-index: 100;
     position: relative;
     background: #ffffff;
-    height: 80px;
 }
 .content {
     background: lightgrey;
@@ -87,23 +88,14 @@ body {
 /*****************search*****************/
 
 .controls {
-    margin-top: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    height: 32px;
     outline: none;
 }
 #pac-input {
     background-color: #fff;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    margin-left: 12px;
-    padding: 0 11px 0 13px;
+    padding: 5px 5px;
     text-overflow: ellipsis;
-    width: 200px;
 }
 #pac-input:focus {
     border-color: darkgreen;
@@ -121,9 +113,11 @@ body {
     font-size: 13px;
     font-weight: 300;
 }
+/*
 #target {
-    width: 345px;
+    width: 245px;
 }
+*/
 
 /*****************webiste - nav*****************/
 
@@ -135,9 +129,13 @@ li {
 }
 nav {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
-    line-height: 60px;
+    font-size: 1.25rem;
+    line-height: 40px;
     background: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
 .logo {
     display: inline-block;
@@ -176,7 +174,7 @@ li > a:hover {
     height: 70px;
     line-height: 1.7em;
 }
-.gm-style-iw {}
+
 .floatfix:after {
     content: '';
     display: block;
@@ -212,7 +210,7 @@ li > a:hover {
     display: block;    
     font-weight: 500;
     transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     
 }
 
@@ -268,6 +266,10 @@ li > a:hover {
     transition: 0.3s;
 }
 
+#menu {
+    cursor: pointer;
+    margin-left: 20px;
+}
 
 #main {
     transition: margin-left .5s;
@@ -275,9 +277,7 @@ li > a:hover {
     /*    margin-bottom: -50px;*/
     /*    padding: 20px;*/
 }
-#menu {
-    margin: 0 50px;
-}
+
 
 
 @media screen and (max-height: 450px) {
@@ -291,16 +291,21 @@ li > a:hover {
 
 /*checkboxes*/
 
+.searchbar-text {
+    display: inline-block;
+    float: left;
+}
+
 .select {
     display: inline-block;
     margin: 0 10px;
 }
 label {
-    margin: 10px;
-    font-size: 0.8em;
-    line-height: 80px;
+/*    margin: 10px;*/
+/*    font-size: 0.8em;*/
+/*    line-height: 80px;*/
 }
-input[type=checkbox] {
+input[type='checkbox'] {
     position: absolute;
     opacity: 0;
     z-index: -1;
@@ -325,4 +330,35 @@ input[type="checkbox"]:focus+span:before {
 }
 input[type="checkbox"]+span:hover:before {
     text-shadow: 0 1px 1px grey;
+}
+
+input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Josefin Sans', sans-serif;
+}
+input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Josefin Sans', sans-serif;
+}
+input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'Josefin Sans', sans-serif;
+}
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=text] {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 150px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
 }

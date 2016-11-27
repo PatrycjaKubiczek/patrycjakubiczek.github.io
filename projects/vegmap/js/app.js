@@ -5,8 +5,8 @@ $(window).on("load", function() {
 $(document).ready(function() {
 //    $('.loader').css('display', 'none');
 function openNav() {
-    document.getElementById("mySidenav").style.width = "13%";
-    document.getElementById("main").style.marginLeft = "13%";
+    document.getElementById("mySidenav").style.width = "20%";
+    document.getElementById("main").style.marginLeft = "20%";
     document.getElementById("menu").style.display = "none";
 
 }    

@@ -141,16 +141,16 @@ a:hover {
     left: 0;
     background-color: #ffffff;
     overflow-x: hidden;
-    padding-top: 100px;
+    padding-top: 70px;
     transition: 0.5s;
     font-family: 'Josefin Sans', sans-serif;
+    /*    padding: 10px;*/
     border-right: 20px solid #0a8838;
     border-image: url(../images/leaf-spring-leaves-plants.jpg) 20;
     
 }
 
 /* sidebar links */
-
 .sidenav a  {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -159,31 +159,65 @@ a:hover {
     display: block;    
     font-weight: 500;
     transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     
 }
 
-.sidenav a:hover,
-.offcanvas a:focus {
-    color: #0a8838;
+.sidenav a:hover:not(:first-child) ,
+.offcanvas a:focus:not(:first-child)  {
+    color: #5ba90d;
     border-bottom: 2px solid #5ba90d;
+/*    width: 250px;*/
+
 }
+
+/*
+.sliding {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 25px;
+}
+
+.sliding:hover {
+    border-bottom: 3px solid blue;
+    width: 200px;
+}
+*/
 
 /* closing btn */
 .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 30px;
+    font-size: 40px;
+    margin-right: 10px;
     /*    margin: 0 auto;*/
     /*    margin-left: 50px;*/
 }
 
-#main {
-    transition: margin-left .5s;
-    padding-left: 30px;
-/*    min-height: 100%;*/
-/*    background: #E8E8E8;*/
+.sidenav > #sidenav-text {
+    font-size: 12px;
+    padding-top: 20px;
+/*    padding: 20px 0 0 0;*/
+/*    padding-left: 10px;*/
+    text-align: center;
+}
+
+#sidenav-text  a {
+    padding: 8px 8px 8px 8px;
+    font-size: 12px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#menu {
+    cursor: pointer;
+    margin-left: 20px;
 }
 
 #menu {

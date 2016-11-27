@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon.ico" sizes="16x16">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link rel="icon" src="./images/icon.png" sizes="16x16" type="image/png">
-    <script src="./js/jquery-3.1.0.min.js"></script>
-    <script src="./js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <meta name="description" content="Sprawdź gdzie możesz zjeść smaczny wege posiłek w Krakowie!">
     <meta name="author" content="Patrycja Kubiczek">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Wege Kraków - Mapa wege miejsc</title>
     
 
@@ -43,35 +39,33 @@
                 
             <!-- navbar section-->
                 <nav>
-                    <p class="logo"><img class="img-logo" src="images/logo.png" alt="Logo Wege Kraków"></p>
-                    <span id="menu">[menu]</span>
+<!--                    <p class="logo"><img class="img-logo" src="images/logo.png" alt="Logo Wege Kraków"></p>-->
+                    <span id="menu">/info/</span>
 
             <!--checkboxes section-->
                     <div class='select'>
-                        Wybierz rodzaj miejsca:
+                        Rodzaj miejsca: 
                         <label for="vegancheck">
                             <input type="checkbox" id="vegancheck" checked>
-                            <span>Vegan</span>
+                            <span>vegan</span>
                         </label>
 
                         <label for="veggiecheck">
                             <input type="checkbox" id="veggiecheck" checked>
-                            <span>Wege</span>
+                            <span>wege</span>
                         </label>
 
                         <label for="othercheck">
                             <input type="checkbox" id="othercheck" checked>
-                            <span>Opcje vegan i wege</span>
+                            <span>opcje vegan i wege</span>
                         </label>
 
                         <label for="icecream">
                             <input type="checkbox" id="icecream" checked>
-                            <span>Lody vegan</span>
+                            <span>lody vegan</span>
                         </label>
                     </div>
                     <input id="pac-input" class="controls" type="text" placeholder="Wpisz nazwę miejsca...">
-
-
                 </nav>
 
             </header>
@@ -101,6 +95,8 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd6U2Jq15FiKxT1NCbYiuLOgJYqV_ZDDY">
     </script>
 
+    <script src="./js/jquery-3.1.0.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
