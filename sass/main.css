@@ -15,14 +15,14 @@ p {
   text-align: center;
   font-family: "Lato", serif; }
 
-/* line 13, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 14, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .container {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  max-height: 1200px; }
+  max-width: 1200px; }
 
-/* line 20, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 21, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 h1 {
   font-family: "Old Standard TT", serif;
   color: #484a4c;
@@ -32,7 +32,7 @@ h1 {
   font-weight: normal;
   text-transform: uppercase; }
 
-/* line 29, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 30, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 h2 {
   font-family: "Old Standard TT", serif;
   color: #484a4c;
@@ -40,7 +40,7 @@ h2 {
   text-align: center;
   font-weight: normal; }
 
-/* line 36, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 37, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 h3 {
   font-family: "Old Standard TT", serif;
   line-height: 100px;
@@ -49,52 +49,52 @@ h3 {
   font-weight: normal;
   text-transform: uppercase; }
 
-/* line 44, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 45, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 h4 {
   padding: 10px; }
 
-/* line 48, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 49, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 a:link {
   text-decoration: none;
   color: #484a4c; }
 
-/* line 52, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 53, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 a:visited {
   text-decoration: none;
   color: #484a4c; }
 
-/* line 56, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 57, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 a:hover {
   text-decoration: none;
   color: #946f6f; }
 
-/* line 61, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 62, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 nav {
   text-align: center;
   width: 100%;
   background-color: transparent; }
-  /* line 66, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 67, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   nav .menu li,
   nav ul {
     display: inline-block; }
 
-/* line 72, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 73, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 nav a:link {
   text-decoration: none;
   color: black; }
 
-/* line 76, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 77, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 nav a:visited {
   text-decoration: none;
   color: black; }
 
-/* line 80, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 81, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 nav a:hover {
   transition: all 0.4s ease-out;
   text-decoration: none;
   color: #946f6f; }
 
-/* line 87, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 88, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 header {
   background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.45)), url(../images/95cdfeef.jpg);
   background-size: cover;
@@ -106,40 +106,40 @@ header {
   display: flex;
   align-items: center;
   justify-content: center; }
-  /* line 99, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 100, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   header a:link {
     text-decoration: none;
     color: #484a4c; }
-  /* line 103, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 104, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   header a:visited {
     text-decoration: none;
     color: #484a4c; }
-  /* line 107, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 108, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   header a:hover {
     transition: all 0.4s ease-out;
     text-decoration: none;
     color: #946f6f; }
-  /* line 113, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 114, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   header button {
     background: transparent;
     border: 0;
     padding: 25px;
     color: #fff;
     margin: 0 auto; }
-    /* line 119, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 120, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     header button img {
       transform: translate(0, 0);
       transition: transform 0.4s ease-in-out; }
-    /* line 124, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 125, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     header button:hover img {
       transform: translate(0, 20px);
       transition: transform 0.4s ease-in-out; }
 
-/* line 131, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 132, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 section {
   padding: 75px 0; }
 
-/* line 135, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 136, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .sticky {
   width: 100%;
   position: fixed;
@@ -151,7 +151,7 @@ section {
   border-bottom: 1px dotted lightgrey;
   z-index: 2; }
 
-/* line 148, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 149, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 ul.menu li {
   list-style-type: none;
   display: inline-block;
@@ -162,18 +162,18 @@ ul.menu li {
   font-size: 0.7em;
   font-weight: 600; }
 
-/* line 161, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 162, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 hr {
   border: 0;
   border-top: 1px dotted lightgrey;
   width: 100%; }
-  /* line 165, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 166, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   hr.underline {
     width: 50%;
     margin: 0 auto;
     padding: 40px; }
 
-/* line 172, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 173, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 #profilepic {
   border-radius: 50% 0 50% 50%;
   height: 250px;
@@ -181,29 +181,28 @@ hr {
   float: left;
   margin-right: 20px; }
 
-/* line 179, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 180, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .aboutme-text {
   max-width: 80%;
   margin: 0 auto;
   text-align: left; }
-  /* line 183, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 184, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   .aboutme-text p {
     line-height: 35px;
     text-align: left; }
-  /* line 187, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 188, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   .aboutme-text span {
     font-weight: bolder; }
 
-/* line 191, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 192, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .resume {
   text-align: left; }
 
-/* line 195, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 196, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .works {
   width: 250px;
   height: 250px;
   margin: 20px;
-  object-fit: cover;
   filter: grayscale(70%);
   padding: 25px; }
 
@@ -212,11 +211,11 @@ hr {
   width: 200px;
   height: 200px;
   margin: 20px;
-  object-fit: cover;
+  object-position: 50% 50%;
   filter: grayscale(70%);
   display: inline-block; }
 
-/* line 213, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 214, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -226,7 +225,7 @@ hr {
   text-align: center;
   cursor: default;
   border: 10px solid #e2e2e2; }
-  /* line 222, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 223, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   .hovereffect .overlay {
     width: 100%;
     height: 100%;
@@ -238,21 +237,21 @@ hr {
     background-color: rgba(255, 255, 255, 0.8);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
-    /* line 235, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 236, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     .hovereffect .overlay a:link,
     .hovereffect .overlay .a:visited {
       color: #000;
       padding: 10px; }
-    /* line 240, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 241, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     .hovereffect .overlay a:hover {
       color: #946f6f; }
-  /* line 244, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 245, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   .hovereffect img {
     display: block;
     position: relative;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear; }
-  /* line 250, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 251, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   .hovereffect h2 {
     font-family: "Lato", serif;
     font-weight: bolder;
@@ -269,7 +268,7 @@ hr {
     transition: all 0.2s ease-in-out;
     padding: 10px;
     border-bottom: 1px solid lightgrey; }
-  /* line 267, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 268, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   .hovereffect a.info {
     text-decoration: none;
     display: inline-block;
@@ -283,22 +282,22 @@ hr {
     transition: all 0.2s ease-in-out;
     margin: 50px 0 0;
     padding: 7px 14px; }
-    /* line 280, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 281, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     .hovereffect a.info :hover {
       box-shadow: 0 0 5px #fff; }
 
-/* line 286, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 287, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .hovereffect:hover img {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2); }
 
-/* line 291, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 292, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .hovereffect:hover .overlay {
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 296, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 297, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .hovereffect:hover h2,
 .hovereffect:hover a.info {
   opacity: 1;
@@ -307,54 +306,54 @@ hr {
   -webkit-transform: translatey(0);
   transform: translatey(0); }
 
-/* line 303, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 304, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 .hovereffect:hover a.info {
   -webkit-transition-delay: .2s;
   transition-delay: .2s; }
 
-/* line 309, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+/* line 310, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
 footer {
   text-align: center;
   padding: 2em;
   background-color: #eeeeee;
   width: 100%; }
-  /* line 314, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 315, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   footer p {
     font-size: 0.8em;
     color: lightgrey; }
-    /* line 317, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 318, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     footer p a:link {
       color: lightgrey; }
-    /* line 320, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 321, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     footer p a:visited {
       color: lightgrey; }
-    /* line 323, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+    /* line 324, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
     footer p a:hover {
       color: grey; }
 
 @media only screen and (min-width: 1200px) {
-  /* line 329, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 330, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   .container {
     width: 1200px; } }
 
 @media only screen and (max-width: 768px) {
-  /* line 334, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 335, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   h1 {
     padding: 0; }
-  /* line 337, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 338, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   h2 {
     font-size: 1em;
     padding: 0; }
-  /* line 342, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 343, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   nav img {
     display: none; }
-  /* line 346, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 347, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   #profilepic {
     height: 100px; }
-  /* line 349, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 350, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   hr {
     padding: 0; }
-  /* line 352, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
+  /* line 353, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/sass/partials/_base.scss */
   li {
     padding: 5px; } }
 
