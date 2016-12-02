@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+
+    <title>Fly with us</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-wrap">
+            <a href=""><img src="./images/logo.png" alt="Logo" class="logo"></a>
+            <nav>
+
+                <ul>
+                    <li></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li>
+                        <input type="search" placeholder="search">
+                    </li>
+                </ul>
+            </nav>
+            <button id="nav-btn">
+                <i class="fa fa-bars" aria-hidden="true"></i> Menu
+            </button>
+        </div>
+    </header>
+
+
+    <!--
+        <div class="nav-wrap ">
+            <div class="menu-wrap">
+                
+                
+            </div>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <div class="search-box">
+                
+            </div>
+        </div>
+        
+-->
+
+
+    <div class="jumbotron">
+        <div class="container-text">
+            <h1 class="header-text">Fly with us</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="panel">
+            <form>
+                <input type="text" placeholder="Current City">
+                <input type="text" placeholder="Destination">
+                <div>
+                    <img src="images/calendar.png">
+                    <input type="date" data-date-format="DD MMMM YYYY">
+                </div>
+
+                <div>
+                    <img src="images/calendar.png">
+                    <input type="date" data-date-format="DD MMMM YYYY">
+                </div>
+                <div>
+                    <img src="images/persons.png">
+                    <input type="number" value="1" min="1" max="12">
+                </div>
+            </form>
+            <button class="btn-send"><img src="images/send.png"></button>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="container-text">
+            <h2 class="subheading">Find the cheapest flights</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cum commodi nobis voluptatum. Excepturi fugiat, aperiam ipsam incidunt quia rerum voluptatum provident ex optio necessitatibus, earum sunt, obcaecati velit fuga.</p>
+            <div class="icons">
+                <img src="./images/umbrella.png">
+
+                <img src="./images/ticket.png">
+
+                <img src="./images/money.png">
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="container-text">
+            <h2 class="subheading">Popular destinations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cum commodi nobis voluptatum. Excepturi fugiat, aperiam ipsam incidunt quia rerum voluptatum provident ex optio necessitatibus, earum sunt, obcaecati velit fuga.</p>
+            <div class="city-outer">
+                <div class="city-inner">
+                    <div class="city-img"></div>
+                    <div class="city-img2"></div>
+                    <div class="city-img3">
+                    <a href="#openModal-ny"><div class="ny"></div></a>
+                    </div>
+                </div>
+                <h4>New York</h4>
+            </div>
+
+
+            <div id="openModal-ny" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">x</a>
+                    <!--    <img src="./images/gallery-1.png">-->
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="./images/ny-big.jpg">
+                        </div>
+                        <div class="modal-inner">
+                            <h2>New York</h2>
+                            <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, corporis, ab. Neque assumenda eaque nisi magni aspernatur minus eius quaerat obcaecati quos accusantium. Tempora cupiditate voluptatem laboriosam qui aliquam est. Debitis itaque reprehenderit libero, eum cupiditate cumque nulla repellendus error voluptatibus aliquid? Aut nam delectus odit accusamus eveniet temporibus earum quae, dolorem, dolorum quas, harum fugiat, doloremque pariatur hic blanditiis. Molestias nemo, quidem et omnis debitis harum est delectus, vero voluptatum totam magni inventore saepe asperiores veniam tempora quis, voluptates sint doloribus quaerat? Maxime distinctio vitae eos obcaecati, iusto facilis!</p>
+                            <button class="btn-more">Book flight</button>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+           
+            <div class="city-outer">
+                <div class="city-inner">
+                    <div class="city-img"></div>
+                    <div class="city-img2"></div>
+                    <div class="city-img3"><a href="#openModal-dubai"><div class="dubai"></div></a></div>
+                </div>
+                <h4>Dubai</h4>
+            </div>
+
+           
+           <div id="openModal-dubai" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">x</a>
+                    <!--    <img src="./images/gallery-1.png">-->
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="./images/dubai-big.jpeg">
+                        </div>
+                        <div class="modal-inner">
+                            <h2>Dubai</h2>
+                            <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, corporis, ab. Neque assumenda eaque nisi magni aspernatur minus eius quaerat obcaecati quos accusantium. Tempora cupiditate voluptatem laboriosam qui aliquam est. Debitis itaque reprehenderit libero, eum cupiditate cumque nulla repellendus error voluptatibus aliquid? Aut nam delectus odit accusamus eveniet temporibus earum quae, dolorem, dolorum quas, harum fugiat, doloremque pariatur hic blanditiis. Molestias nemo, quidem et omnis debitis harum est delectus, vero voluptatum totam magni inventore saepe asperiores veniam tempora quis, voluptates sint doloribus quaerat? Maxime distinctio vitae eos obcaecati, iusto facilis!</p>
+                            <button class="btn-more">Book flight</button>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="city-outer">
+                <div class="city-inner">
+                    <div class="city-img"></div>
+                    <div class="city-img2"></div>
+                    <div class="city-img3"><a href="#openModal-paris"><div class="paris"></div></a></div>
+                </div>
+                <h4>Paris</h4>
+            </div>
+            
+            <div id="openModal-paris" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">x</a>
+                    <!--    <img src="./images/gallery-1.png">-->
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="./images/paris-big.jpg">
+                        </div>
+                        <div class="modal-inner">
+                            <h2>Paris</h2>
+                            <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, corporis, ab. Neque assumenda eaque nisi magni aspernatur minus eius quaerat obcaecati quos accusantium. Tempora cupiditate voluptatem laboriosam qui aliquam est. Debitis itaque reprehenderit libero, eum cupiditate cumque nulla repellendus error voluptatibus aliquid? Aut nam delectus odit accusamus eveniet temporibus earum quae, dolorem, dolorum quas, harum fugiat, doloremque pariatur hic blanditiis. Molestias nemo, quidem et omnis debitis harum est delectus, vero voluptatum totam magni inventore saepe asperiores veniam tempora quis, voluptates sint doloribus quaerat? Maxime distinctio vitae eos obcaecati, iusto facilis!</p>
+                            <button class="btn-more">Book flight</button>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="city-outer">
+                <div class="city-inner">
+                    <div class="city-img"></div>
+                    <div class="city-img2"></div>
+                    <div class="city-img3"><a href="#openModal-ldn"><div class="london"></div></a></div>
+                </div>
+                <h4>London</h4>
+            </div>
+
+           <div id="openModal-ldn" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">x</a>
+                    <!--    <img src="./images/gallery-1.png">-->
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="./images/london-big.jpeg">
+                        </div>
+                        <div class="modal-inner">
+                            <h2>London</h2>
+                            <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, corporis, ab. Neque assumenda eaque nisi magni aspernatur minus eius quaerat obcaecati quos accusantium. Tempora cupiditate voluptatem laboriosam qui aliquam est. Debitis itaque reprehenderit libero, eum cupiditate cumque nulla repellendus error voluptatibus aliquid? Aut nam delectus odit accusamus eveniet temporibus earum quae, dolorem, dolorum quas, harum fugiat, doloremque pariatur hic blanditiis. Molestias nemo, quidem et omnis debitis harum est delectus, vero voluptatum totam magni inventore saepe asperiores veniam tempora quis, voluptates sint doloribus quaerat? Maxime distinctio vitae eos obcaecati, iusto facilis!</p>
+                            <button class="btn-more">Book flight</button>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="city-outer">
+                <div class="city-inner">
+                    <div class="city-img"></div>
+                    <div class="city-img2"></div>
+                    <div class="city-img3"><a href="#openModal-amsterdam"><div class="amsterdam"></div></a></div>
+                </div>
+                <h4>Amsterdam</h4>
+            </div>
+
+           <div id="openModal-amsterdam" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">x</a>
+                    <!--    <img src="./images/gallery-1.png">-->
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="./images/amsterdam-big.jpg">
+                        </div>
+                        <div class="modal-inner">
+                            <h2>Amsterdam</h2>
+                            <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, corporis, ab. Neque assumenda eaque nisi magni aspernatur minus eius quaerat obcaecati quos accusantium. Tempora cupiditate voluptatem laboriosam qui aliquam est. Debitis itaque reprehenderit libero, eum cupiditate cumque nulla repellendus error voluptatibus aliquid? Aut nam delectus odit accusamus eveniet temporibus earum quae, dolorem, dolorum quas, harum fugiat, doloremque pariatur hic blanditiis. Molestias nemo, quidem et omnis debitis harum est delectus, vero voluptatum totam magni inventore saepe asperiores veniam tempora quis, voluptates sint doloribus quaerat? Maxime distinctio vitae eos obcaecati, iusto facilis!</p>
+                            <button class="btn-more">Book flight</button>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="city-outer">
+                <div class="city-inner">
+                    <div class="city-img"></div>
+                    <div class="city-img2"></div>
+                    <div class="city-img3"><a href="#openModal-rio"><div class="rio"></div></a></div>
+                </div>
+                <h4>Rio de Janeiro</h4>
+            </div>
+<div id="openModal-rio" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">x</a>
+                    <!--    <img src="./images/gallery-1.png">-->
+                    <div class="modal-wrap">
+                        <div class="modal-img">
+                            <img src="./images/rio-big.jpeg">
+                        </div>
+                        <div class="modal-inner">
+                            <h2>Rio de Janerio</h2>
+                            <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, corporis, ab. Neque assumenda eaque nisi magni aspernatur minus eius quaerat obcaecati quos accusantium. Tempora cupiditate voluptatem laboriosam qui aliquam est. Debitis itaque reprehenderit libero, eum cupiditate cumque nulla repellendus error voluptatibus aliquid? Aut nam delectus odit accusamus eveniet temporibus earum quae, dolorem, dolorum quas, harum fugiat, doloremque pariatur hic blanditiis. Molestias nemo, quidem et omnis debitis harum est delectus, vero voluptatum totam magni inventore saepe asperiores veniam tempora quis, voluptates sint doloribus quaerat? Maxime distinctio vitae eos obcaecati, iusto facilis!</p>
+                            <button class="btn-more">Book flight</button>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <button class="btn-more">View more</button>
+        </div>
+    </div>
+
+    <div class="bg"></div>
+    <div class="container">
+        <div class="container-text">
+            <h2 class="subheading">Hear our customers thoughts</h2>
+            <h3 class="strike"><span>&#10084;</span></h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cum commodi nobis voluptatum. Excepturi fugiat, aperiam ipsam incidunt quia rerum voluptatum provident ex optio necessitatibus, earum sunt, obcaecati velit fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore veniam rerum dicta, at repellendus expedita placeat quidem! Perspiciatis culpa quidem doloribus, velit dolores voluptatem laborum quas, fugit iste sapiente, distinctio.</p>
+
+            
+            <!--
+</div>
+            <img id="myImg" src="images/gallery-2.png" alt="Trolltunga, Norway" width="300" height="200">
+            <div id="myModal" class="modal">
+                <span class="close">×</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+-->
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slide-prev" id="prev">
+        </div>
+
+        <div class="slide-center" id="current">
+            <div class="quote">
+                <img src="./images/customer.png">
+                <p> <span>&ldquo;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem cupiditate asperiores id libero ipsa aut deserunt, facere similique est adipisci. <span>&rdquo;</span> </p>
+            </div>
+        </div>
+
+        <div class="slide-next" id="next">
+        </div>
+    </div>
+
+    <div class="quote-sign">&ldquo;</span>
+        <h3 class="quote-big">We had an experience of our life.</h3>
+
+        <button class="btn-more">Get started</button>
+    </div>
+    </div>
+    </div>
+    <div class="bg"></div>
+    <footer class="container">
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
