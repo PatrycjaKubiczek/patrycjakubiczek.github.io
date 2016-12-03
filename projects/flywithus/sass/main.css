@@ -53,7 +53,7 @@ p {
   color: #323232;
   font-size: 1.2rem;
   text-align: center;
-  padding-bottom: 50px; }
+  padding: 0 30px 30px; }
 
 /* line 46, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .jumbotron {
@@ -69,9 +69,10 @@ p {
   font-family: "Playfair Display", serif;
   font-size: 5rem;
   font-weight: normal;
-  text-align: left; }
+  text-align: left;
+  padding: 20px; }
 
-/* line 61, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 62, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 header {
   position: fixed;
   width: 100%;
@@ -79,42 +80,40 @@ header {
   background-color: white;
   z-index: 2;
   border-bottom: 1px solid lightgray; }
-  /* line 68, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 69, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   header nav {
     vertical-align: baseline; }
-    /* line 70, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 71, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     header nav ul {
       list-style-type: none; }
-      /* line 72, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+      /* line 73, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
       header nav ul li {
         display: inline-block;
         color: black;
         line-height: 80px;
         padding: 0 20px;
         float: left; }
-        /* line 78, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+        /* line 79, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
         header nav ul li:last-child {
           line-height: 80px;
           float: right; }
-  /* line 85, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 86, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   header .logo {
     display: inline-block;
     height: 35px;
     float: left;
     margin: 20px; }
-  /* line 91, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 92, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   header button {
     display: none; }
 
 @media (max-width: 768px) {
-  /* line 96, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 99, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   header {
     position: relative;
     height: 50px;
-    font-family: "Open Sans", sans-serif;
-    position: fixed;
-    z-index: 2; }
-    /* line 102, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    position: fixed; }
+    /* line 103, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     header nav {
       display: none;
       position: absolute;
@@ -122,18 +121,18 @@ header {
       height: 150px;
       left: 0;
       top: 50px; }
-      /* line 109, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+      /* line 110, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
       header nav ul {
         width: 100%;
         float: none; }
-        /* line 112, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+        /* line 113, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
         header nav ul li {
           width: 100%;
           background-color: white;
           display: block;
           text-align: center;
           line-height: 40px; }
-    /* line 121, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 122, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     header button {
       display: block;
       margin: 0 auto;
@@ -145,18 +144,18 @@ header {
       float: right;
       font-size: 16px;
       color: #500e5e; }
-    /* line 133, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 134, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     header .logo {
       display: inline-block;
       height: 25px;
       float: left;
       margin: 10px; } }
 
-/* line 141, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 142, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .visible {
   display: block; }
 
-/* line 144, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 145, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 h3.strike {
   position: relative;
   overflow: hidden;
@@ -166,7 +165,7 @@ h3.strike {
   color: #500e5e;
   font-size: 3rem; }
 
-/* line 153, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 154, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 h3.strike span {
   display: inline-block;
   vertical-align: baseline;
@@ -176,7 +175,7 @@ h3.strike span {
   position: relative;
   padding: 0 20px; }
 
-/* line 163, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 164, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 h3.strike span:before,
 h3.strike span:after {
   content: '';
@@ -186,15 +185,15 @@ h3.strike span:after {
   top: 0.73em;
   border-top: 3px solid #500e5e; }
 
-/* line 171, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 172, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 h3.strike span:before {
   right: 100%; }
 
-/* line 174, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 175, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 h3.strike span:after {
   left: 100%; }
 
-/* line 178, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 179, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .panel {
   background-color: #500e5e;
   box-shadow: 0px 30px 69.16px 6.84px rgba(4, 4, 4, 0.4);
@@ -207,11 +206,11 @@ h3.strike span:after {
   justify-content: space-between;
   align-content: space-between; }
   @media (max-width: 768px) {
-    /* line 178, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 179, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     .panel {
       margin-top: -150px; } }
 
-/* line 193, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 195, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 form {
   padding: 30px 0 30px 30px;
   display: flex;
@@ -219,24 +218,24 @@ form {
   align-items: baseline;
   margin: 0 auto;
   width: 100%; }
-  /* line 200, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 202, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   form > input {
     padding: 50px; }
-  /* line 203, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 205, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   form div {
-    padding: 15px; }
-    /* line 205, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    padding: 10px 0;
+    margin: 0 10px; }
+    /* line 208, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     form div > img {
       height: 20px; }
   @media (max-width: 768px) {
-    /* line 193, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 195, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     form {
       text-align: left;
       padding: 5px;
-      display: block;
-      margin: 0; } }
+      flex-direction: column; } }
 
-/* line 216, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 219, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 input[type=text] {
   background-color: transparent;
   border: 0;
@@ -245,34 +244,34 @@ input[type=text] {
   margin: 10px;
   color: #fff;
   font-family: "Open Sans", sans-serif; }
-  /* line 224, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 227, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type=text]::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #fff; }
-  /* line 228, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 231, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type=text]::-moz-placeholder {
     /* Firefox 19+ */
     color: #fff; }
-  /* line 232, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 235, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type=text]::-ms-input-placeholder {
     /* IE 10+ */
     color: #fff; }
-  /* line 236, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 239, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type=text]::-moz-placeholder {
     /* Firefox 18- */
     color: #fff; }
 
-/* line 241, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 244, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 input[type=search] {
   border: 1px solid lightgrey;
   padding: 10px;
   transition: all 0.4s ease-in-out; }
-  /* line 245, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 248, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type=search]:focus {
     border: 1px solid #500e5e;
     transition: all 0.4s ease-in-out; }
 
-/* line 250, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 253, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 input[type="date"] {
   border: 0;
   background-color: transparent;
@@ -282,64 +281,62 @@ input[type="date"] {
   padding: 0;
   color: #fff;
   -webkit-padding-start: 1px; }
-  /* line 259, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 262, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type="date"]::-webkit-datetime-edit-month-field {
     color: white; }
-  /* line 262, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 265, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type="date"]::-webkit-datetime-edit-day-field {
     color: white; }
-  /* line 265, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 268, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type="date"]::-webkit-datetime-edit-year-field {
     color: white; }
-  /* line 268, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 271, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 18px; }
-    /* line 270, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 273, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     input[type="date"]::-webkit-calendar-picker-indicator:hover {
       background-color: #500e5e; }
-  /* line 274, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 277, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type="date"]::-webkit-datetime-edit {
     -webkit-flex: 1;
     -webkit-user-modify: read-only !important;
     display: inline-block;
     min-width: 0;
-    /*    overflow: hidden;*/
-    color: #fff;
     font-family: "Open Sans", sans-serif; }
-  /* line 283, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 284, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   input[type="date"]::-webkit-datetime-edit-fields-wrapper {
     -webkit-user-modify: read-only !important;
     display: inline-block;
     padding: 1px 0; }
 
-/* line 290, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 291, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 input[type=number] {
   background: transparent;
   color: #fff;
   border: 0;
   padding: 10px; }
 
-/* line 297, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 298, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 input:focus,
 button:focus {
   outline: 0; }
 
-/* line 300, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 301, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 input[type=text]:focus {
   border-bottom: 1px solid #fff;
   transition: border-bottom 0.6s; }
 
-/* line 304, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 305, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .btn-send {
   background-color: #69157a;
   box-shadow: 0px 30px 69.16px 6.84px rgba(4, 4, 4, 0.4);
-  width: 100px;
+  min-width: 50px;
   border: none; }
-  /* line 309, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 310, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .btn-send > img {
     height: 30px; }
 
-/* line 313, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 314, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .subheading {
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -347,24 +344,28 @@ input[type=text]:focus {
   padding: 100px 0;
   font-size: 5em;
   font-weight: 100; }
+  @media screen and (max-width: 768px) {
+    /* line 314, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    .subheading {
+      padding: 40px 0; } }
 
-/* line 321, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 326, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .icons {
   display: flex;
   justify-content: space-between;
   align-content: space-between; }
 
-/* line 326, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 331, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .icons > img {
   height: 100px;
   margin-bottom: 100px; }
   @media screen and (max-width: 768px) {
-    /* line 326, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 331, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     .icons > img {
       height: 50px;
       margin: 20px; } }
 
-/* line 334, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 339, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .btn-more {
   border: 2px solid #69157a;
   background-color: #fff;
@@ -377,7 +378,7 @@ input[type=text]:focus {
   margin-top: 50px;
   margin-bottom: 50px;
   transition: 0.4s; }
-  /* line 346, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 351, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .btn-more:hover {
     border: 2px solid #69157a;
     background-color: #69157a;
@@ -390,7 +391,7 @@ input[type=text]:focus {
     margin-bottom: 50px;
     transition: 0.4s; }
 
-/* line 359, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 364, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .bg {
   background-image: url("../images/bg.png");
   height: 150px;
@@ -401,33 +402,33 @@ input[type=text]:focus {
   -moz-box-shadow: inset 2px 177px 34px -148px rgba(0, 0, 0, 0.34);
   box-shadow: inset 2px 177px 34px -148px rgba(0, 0, 0, 0.34); }
 
-/* line 370, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 375, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .testimonial {
   display: inline-block; }
-  /* line 372, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 377, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .testimonial img {
     height: 200px; }
 
-/* line 376, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 381, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .slider {
   margin: 0 auto;
   text-align: center; }
-  /* line 379, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 384, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .slider div {
     vertical-align: middle;
     display: inline-block;
     margin: 20px; }
-    /* line 383, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 388, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     .slider div img {
       height: 200px;
       width: 200px; }
-  /* line 388, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 393, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .slider .slide-prev {
     background-image: url(../images/gallery-1.png);
     background-size: cover;
     width: 400px;
     height: 500px; }
-  /* line 394, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 399, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .slider .slide-center {
     background-image: url(../images/gallery-2.png);
     background-size: cover;
@@ -436,13 +437,13 @@ input[type=text]:focus {
     text-align: center;
     position: relative;
     border: 10px solid lightgray; }
-  /* line 403, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 408, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .slider .slide-next {
     background-image: url(../images/gallery-3.png);
     background-size: cover;
     width: 400px;
     height: 500px; }
-  /* line 409, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 414, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .slider .quote {
     position: absolute;
     bottom: 0;
@@ -450,21 +451,21 @@ input[type=text]:focus {
     margin: 40px 40px 10px 40px;
     padding: 20px;
     background-color: white; }
-    /* line 418, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 423, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     .slider .quote p {
       font-size: 12px;
       padding: 0; }
-    /* line 422, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 427, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     .slider .quote img {
       width: 100px;
       height: auto;
       margin-top: -100px; }
-    /* line 427, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    /* line 432, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
     .slider .quote span {
       font-size: 45px;
       font-family: "Playfair Display", serif; }
 
-/* line 434, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 439, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .modalDialog {
   position: fixed;
   top: 0;
@@ -479,47 +480,62 @@ input[type=text]:focus {
   transition: opacity 400ms ease-in;
   pointer-events: none; }
 
-/* line 448, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 453, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .modalDialog:target {
   opacity: 1;
   pointer-events: auto; }
 
-/* line 452, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 457, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .modalDialog > div {
   width: 80%;
   position: relative;
-  margin: 8% auto;
-  padding: 5px 20px 13px 20px;
+  margin: 7% auto;
   background: #fff;
   border: 10px solid #ebebeb; }
 
-/* line 461, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 467, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .modal-wrap {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between; }
-  /* line 465, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  justify-content: space-between; }
+  @media (max-width: 768px) {
+    /* line 467, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    .modal-wrap {
+      flex-direction: column; } }
+  /* line 474, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .modal-wrap h2 {
     font-family: "Playfair Display", serif;
     font-size: 3em;
     font-weight: 100; }
-  /* line 470, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 479, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  .modal-wrap .modal-inner {
+    height: 70%; }
+  /* line 484, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .modal-wrap p {
     color: #787878;
-    font-size: 14px;
-    text-align: justify; }
-  /* line 475, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    font-size: 12px;
+    text-align: justify;
+    padding: 20px; }
+  /* line 493, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .modal-wrap img {
-    margin: 20px;
     float: left;
-    width: 400px;
-    height: 400px;
+    padding: 20px;
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
     object-fit: cover; }
+    @media screen and (max-width: 768px) {
+      /* line 493, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+      .modal-wrap img {
+        max-height: 250px; } }
+  /* line 506, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  .modal-wrap .btn-more {
+    float: right;
+    margin: 20px; }
 
-/* line 483, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 511, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .close {
   background: #500e5e;
-  color: #FFFFFF;
+  color: #fff;
   line-height: 45px;
   position: absolute;
   right: -25px;
@@ -532,21 +548,21 @@ input[type=text]:focus {
   -moz-border-radius: 22px;
   border-radius: 22px; }
 
-/* line 498, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 526, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .close:hover {
   background: #fff;
   color: #500e5e;
   border: 1px solid #500e5e; }
 
-/* line 503, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 531, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .quote-sign {
-  color: #69157a;
+  color: #500e5e;
   text-align: center;
   font-size: 5rem;
   margin: 0 auto;
   font-weight: bold; }
 
-/* line 510, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 538, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .quote-big {
   font-size: 3rem;
   font-family: "Playfair Display", serif;
@@ -555,20 +571,24 @@ input[type=text]:focus {
   font-weight: 100;
   padding-bottom: 50px; }
 
-/* line 518, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 546, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .city-outer {
   display: inline-block;
   margin: 30px 40px;
   transition: 0.4s; }
-  /* line 523, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  @media screen and (max-width: 768px) {
+    /* line 546, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+    .city-outer {
+      margin: 10px; } }
+  /* line 554, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-outer:hover .city-img {
     transform: rotate(-10deg);
     transition: 0.4s; }
-  /* line 527, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 558, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-outer:hover .city-img2 {
     transform: rotate(-5deg);
     transition: 0.4s; }
-  /* line 533, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 564, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-outer h4 {
     text-align: center;
     text-transform: uppercase;
@@ -577,11 +597,11 @@ input[type=text]:focus {
     color: #797979;
     margin-top: 50px; }
 
-/* line 542, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 573, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .city-inner {
   position: relative; }
 
-/* line 545, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 576, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .city-img {
   top: 0;
   left: 0;
@@ -593,7 +613,7 @@ input[type=text]:focus {
   -moz-box-shadow: 2px 2px 3px 1px #d6d6d6;
   box-shadow: 2px 2px 3px 1px #d6d6d6; }
 
-/* line 557, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 588, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .city-img2 {
   position: absolute;
   top: 0;
@@ -606,7 +626,7 @@ input[type=text]:focus {
   -moz-box-shadow: 2px 2px 3px 1px #d6d6d6;
   box-shadow: 2px 2px 3px 1px #d6d6d6; }
 
-/* line 569, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+/* line 600, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
 .city-img3 {
   position: absolute;
   top: 0;
@@ -617,7 +637,7 @@ input[type=text]:focus {
   -webkit-box-shadow: 2px 2px 3px 1px #d6d6d6;
   -moz-box-shadow: 2px 2px 3px 1px #d6d6d6;
   box-shadow: 2px 2px 3px 1px #d6d6d6; }
-  /* line 579, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 612, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-img3 .ny {
     background-image: url(../images/ny.jpg);
     background-size: cover;
@@ -626,7 +646,7 @@ input[type=text]:focus {
     height: 100%;
     padding: 20px;
     border: 10px solid #ebebeb; }
-  /* line 592, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 621, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-img3 .dubai {
     background-image: url(../images/dubai.jpeg);
     background-size: cover;
@@ -635,7 +655,7 @@ input[type=text]:focus {
     height: 100%;
     padding: 20px;
     border: 10px solid #ebebeb; }
-  /* line 601, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 630, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-img3 .paris {
     background-image: url(../images/paris.jpg);
     background-size: cover;
@@ -644,7 +664,7 @@ input[type=text]:focus {
     height: 100%;
     padding: 20px;
     border: 10px solid #ebebeb; }
-  /* line 610, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 639, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-img3 .london {
     background-image: url(../images/london.jpeg);
     background-size: cover;
@@ -653,7 +673,7 @@ input[type=text]:focus {
     height: 100%;
     padding: 20px;
     border: 10px solid #ebebeb; }
-  /* line 619, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 648, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-img3 .amsterdam {
     background-image: url(../images/amsterdam.jpg);
     background-size: cover;
@@ -662,7 +682,7 @@ input[type=text]:focus {
     height: 100%;
     padding: 20px;
     border: 10px solid #ebebeb; }
-  /* line 628, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
+  /* line 657, C:/Users/Patrycja/Desktop/apollo template/sass/partials/_base.scss */
   .city-img3 .rio {
     background-image: url(../images/rio.jpeg);
     background-size: cover;

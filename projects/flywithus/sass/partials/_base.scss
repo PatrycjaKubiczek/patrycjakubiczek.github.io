@@ -40,7 +40,7 @@ p {
     color: #323232;
     font-size: 1.2rem;
     text-align: center;
-    padding-bottom: 50px;
+    padding: 0 30px 30px;
 }
 // hero-image 
 .jumbotron {
@@ -56,6 +56,7 @@ p {
     font-size: 5rem;
     font-weight: normal;
     text-align: left;
+    padding: 20px;
 }
 // navigation
 header {
@@ -92,13 +93,13 @@ header {
         display: none;
     }
 }
+
+// nav - mobile
 @media (max-width: 768px) {
     header {
         position: relative;
         height: 50px;
-        font-family: $opensans;
         position: fixed;
-        z-index: 2;
         nav {
             display: none;
             position: absolute;
@@ -188,6 +189,7 @@ h3.strike span:after {
     align-content: space-between;
     @media (max-width: 768px) {
         margin-top: -150px;
+//        width: 80%;
     }
 }
 form {
@@ -201,7 +203,8 @@ form {
         padding: 50px;
     }
     div {
-        padding: 15px;
+        padding: 10px 0;
+        margin: 0 10px;
         > img {
             height: 20px;
         }
@@ -209,8 +212,8 @@ form {
     @media (max-width: 768px) {
         text-align: left;
         padding: 5px;
-        display: block;
-        margin: 0;
+        flex-direction: column;
+        
     }
 }
 input[type=text] {
@@ -276,8 +279,6 @@ input[type="date"] {
         -webkit-user-modify: read-only !important;
         display: inline-block;
         min-width: 0;
-        /*    overflow: hidden;*/
-        color: #fff;
         font-family: $opensans;
     }
     &::-webkit-datetime-edit-fields-wrapper {
@@ -304,7 +305,7 @@ input[type=text]:focus {
 .btn-send {
     background-color: rgb(105, 21, 122);
     box-shadow: 0px 30px 69.16px 6.84px rgba(4, 4, 4, 0.4);
-    width: 100px;
+    min-width: 50px;
     border: none;
     > img {
         height: 30px;
@@ -317,7 +318,11 @@ input[type=text]:focus {
     padding: 100px 0;
     font-size: 5em;
     font-weight: 100;
+    @media screen and (max-width: 768px) {
+        padding: 40px 0;
+    }
 }
+
 .icons {
     display: flex;
     justify-content: space-between;
@@ -451,9 +456,10 @@ input[type=text]:focus {
 }
 .modalDialog > div {
     width: 80%;
+//    height: 90%;
     position: relative;
-    margin: 8% auto;
-    padding: 5px 20px 13px 20px;
+    margin: 7% auto;
+//    padding: 5px 20px 13px 20px;
     background: #fff;
     border: 10px solid #ebebeb;
 }
@@ -461,28 +467,50 @@ input[type=text]:focus {
 .modal-wrap {
     display: flex;
     justify-content: space-between;
-    align-content: space-between;
+//    align-content: space-between;
+    @media (max-width: 768px) {
+            flex-direction: column;
+        }
     h2 {
         font-family: $playfair;
         font-size: 3em;
         font-weight: 100;
     }
+    .modal-inner {
+        height: 70%;
+//        overflow: scroll;
+    }
+    
     p {
         color: #787878;
-        font-size: 14px;
+        font-size: 12px;
         text-align: justify;
+        padding: 20px;
+//        @media (max-width: 768px) {
+//            overflow: scroll;
+//        }
     }
     img {
-        margin: 20px;
+//        margin: 20px;
         float: left;
-        width: 400px;
-        height: 400px;
+        padding: 20px;
+        width: 100%;
+        min-width: 300px;
+        height: 100%;
         object-fit: cover;
+        @media screen and (max-width: 768px) {
+           max-height: 250px;
+        }
+       
     }
+     .btn-more {
+        float: right;
+        margin: 20px;
+        }
 }
 .close {
     background: $purple;
-    color: #FFFFFF;
+    color: #fff;
     line-height: 45px;
     position: absolute;
     right: -25px;
@@ -501,7 +529,7 @@ input[type=text]:focus {
     border: 1px solid $purple;
 }
 .quote-sign {
-    color: #69157a;
+    color: $purple;
     text-align: center;
     font-size: 5rem;
     margin: 0 auto;
@@ -518,6 +546,9 @@ input[type=text]:focus {
 .city-outer {
     display: inline-block;
     margin: 30px 40px;
+    @media screen and (max-width: 768px) {
+        margin: 10px;
+    }
     transition: 0.4s;
     &:hover {
         .city-img{
@@ -576,6 +607,8 @@ input[type=text]:focus {
     -webkit-box-shadow: 2px 2px 3px 1px rgba(214, 214, 214, 1);
     -moz-box-shadow: 2px 2px 3px 1px rgba(214, 214, 214, 1);
     box-shadow: 2px 2px 3px 1px rgba(214, 214, 214, 1);
+    
+    // MODAL BOXES
     .ny {
         background-image: url(../images/ny.jpg);
         background-size: cover;
@@ -584,10 +617,6 @@ input[type=text]:focus {
         height: 100%;
         padding: 20px;
         border: 10px solid #ebebeb;
-//        width: 200px;
-//        position: relative;
-//        top: 50%;
-//        transform: perspective(1px) translateY(-50%);
     }
     .dubai {
         background-image: url(../images/dubai.jpeg);
