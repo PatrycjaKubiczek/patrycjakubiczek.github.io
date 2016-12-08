@@ -3,9 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var button = document.getElementById("nav-btn");
     var nav = document.querySelector("nav");
     var faIcon = document.querySelector("i");
-    console.log(faIcon);
+
     button.addEventListener("click", function () {
-        console.log('click btn1');
         nav.classList.toggle("visible");
         faIcon.classList.toggle("fa-bars");
         faIcon.classList.toggle("fa-times");
@@ -30,13 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 });
-});
 
-
-
-
-
-$(document).ready(function() {
 
   $('.center').slick({
     centerMode: true,
@@ -78,10 +71,8 @@ $('.slick-current').find('.quote').show();
   
   function displayQuotes() {
     $(".slick-slide").click(function() {
-      console.log('quoting');
       if ($('.slick-slide').hasClass('slick-current')) {
         $('.slick-slide').find('.quote').hide();
-          console.log('quoting part 2');
          $('.slick-current').find('.quote').show();
       } 
       
