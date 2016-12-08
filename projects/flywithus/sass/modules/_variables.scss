@@ -5,24 +5,14 @@ $opensans: 'Open Sans', sans-serif;
 //colors
 
 $purple: #500e5e;
+$darkgrey: #323232;
 
-@mixin flexbox {
+$shadow: rgba(191,191,191,1);
+
+@mixin flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;}
-
-@mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
-    border-radius: $radius;
-}
-
-@mixin box-shadow($val) {
-    -webkit-box-shadow: $val;
-    -moz-box-shadow: $val;
-    box-shadow: $val;
-}
 
 @mixin transition($args...) {
   -webkit-transition: $args;

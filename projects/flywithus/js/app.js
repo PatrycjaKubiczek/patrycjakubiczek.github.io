@@ -9,70 +9,87 @@ document.addEventListener("DOMContentLoaded", function () {
         nav.classList.toggle("visible");
         faIcon.classList.toggle("fa-bars");
         faIcon.classList.toggle("fa-times");
-    });
 
-    window.addEventListener('resize', function () {
-        if (window.matchMedia("(min-width: 769px)").matches) {
-            nav.classList.remove("visible");
-            console.log("działa!");
-            
+        var menuList = document.querySelectorAll('.menu li');
+        console.log(menuList);
+
+        for (var i = 0; i < menuList.length; i++) {
+            var children = menuList[i].addEventListener('click', closeNav, false);
+
+            function closeNav() {
+                console.log("click menu");
+                nav.classList.remove("visible");
+            }
         }
-    });
+    })
     
-    var prevSlide = document.getElementById('prev');
-    var currSlide = document.getElementById('current');
-    var nextSlide = document.getElementById('next');
-    
-    
-    var bgImage = [
-        "url('../../images/gallery-1.png')", "url('../../images/gallery-2.png')", "url('../../images/gallery-3.png')"];
-    
-    
-    function slider () {
-        if(dir == "right" && current < len-1){
-        current++;
-        middle.style.backgroundImage = "url(" + url + img[current] + ")";
-    } else if(dir == "left" && current > 0){
-        current--;
-        middle.style.backgroundImage = "url(" + url + img[current] + ")";
+    window.addEventListener('resize', function () {
+    if (window.matchMedia("(min-width: 769px)").matches) {
+        nav.classList.remove("visible");
+        console.log("działa!");
+
     }
-        
-         nextSlide.addEventListener('click', function(){
-    console.log('next');
-    var i = 0;
-        prevSlide.style.backgroundImage = bgImage[i]-1;
-        currSlide.style.backgroundImage = bgImage[i];
-        nextSlide.style.backgroundImage = bgImage[i]+1;
-              
-    });
-        
-//        prevSlide.addEventListener('click', function(){
-//    console.log('next');
-//        for (var i = 0; i < bgImage.length; i++)
-//            {
-//        prevSlide.style.backgroundImage = bgImage[2];
-//        currSlide.style.backgroundImage = bgImage[1];
-//        nextSlide.style.backgroundImage = bgImage[0];
-//            }    
-//    });
-    }
-   
-    slider();
-    
-    
-//    prevSlide.addEventListener('click', function(){
-//    console.log('prev');
-//        var i = 1;
-//        prevSlide.style.backgroundImage = bgImage[i+1];
-//        currSlide.style.backgroundImage = bgImage[i-1];
-//        nextSlide.style.backgroundImage = bgImage[i];
-//    });
-    
-//    prevSlide.addEventListener('click', function(){
-//        console.log('next dziala');
-//        
-//        currSlide.style.backgroundImage = "url('../../images/gallery-2.png')";
-//        prevSlide.style.backgroundImage = "url('../../images/gallery-1.png')";
-//        nextSlide.style.backgroundImage = "url('../../images/gallery-3a.png')";
-//    });
 });
+});
+
+
+
+
+
+$(document).ready(function() {
+
+  $('.center').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    arrows: false,
+    focusOnSelect: true,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }, {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }, {
+      breakpoint: 1024,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+                
+                ]
+  });
+  
+  $('.quote').hide();
+$('.slick-current').find('.quote').show();
+  
+  function displayQuotes() {
+    $(".slick-slide").click(function() {
+      console.log('quoting');
+      if ($('.slick-slide').hasClass('slick-current')) {
+        $('.slick-slide').find('.quote').hide();
+          console.log('quoting part 2');
+         $('.slick-current').find('.quote').show();
+      } 
+      
+        
+
+    });
+  };
+
+  displayQuotes();
+});
+                  
