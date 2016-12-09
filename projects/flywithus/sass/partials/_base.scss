@@ -92,7 +92,7 @@ header {
         display: none;
     }
 }
-// nav - mobile
+// navigation - mobile
 @media (max-width: 768px) {
     header {
         position: relative;
@@ -490,6 +490,7 @@ input[type=text]:focus {
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
+    overflow: auto;
 }
 .modalDialog:target {
     opacity: 1;

@@ -526,14 +526,15 @@ input[type=text]:focus {
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
-  pointer-events: none; }
+  pointer-events: none;
+  overflow: auto; }
 
-/* line 494, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 495, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .modalDialog:target {
   opacity: 1;
   pointer-events: auto; }
 
-/* line 498, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 499, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .modalDialog > div {
   width: 80%;
   position: relative;
@@ -541,31 +542,31 @@ input[type=text]:focus {
   background: #fff;
   border: 10px solid #ebebeb; }
 
-/* line 505, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 506, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .modal-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between; }
   @media (max-width: 768px) {
-    /* line 505, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+    /* line 506, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
     .modal-wrap {
       flex-direction: column; } }
-  /* line 511, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 512, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .modal-wrap h2 {
     font-family: "Playfair Display", serif;
     font-size: 3em;
     font-weight: 100; }
-  /* line 516, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 517, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .modal-wrap .modal-inner {
     height: 70%; }
-  /* line 519, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 520, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .modal-wrap p {
     color: #787878;
     font-size: 12px;
     text-align: justify;
     padding: 20px; }
-  /* line 525, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 526, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .modal-wrap img {
     float: left;
     padding: 20px;
@@ -573,15 +574,15 @@ input[type=text]:focus {
     height: 100%;
     object-fit: cover; }
     @media screen and (max-width: 768px) {
-      /* line 525, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+      /* line 526, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
       .modal-wrap img {
         max-height: 250px; } }
-  /* line 535, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 536, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .modal-wrap .btn-more {
     float: right;
     margin: 20px; }
 
-/* line 540, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 541, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .close {
   background: #500e5e;
   color: #fff;
@@ -595,48 +596,48 @@ input[type=text]:focus {
   font-weight: bold;
   border-radius: 22px; }
 
-/* line 553, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 554, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .close:hover {
   background: #fff;
   color: #500e5e;
   border: 1px solid #500e5e; }
 
-/* line 561, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 562, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .slide-1 {
   background-image: url(https://s15.postimg.org/5760uxoqj/food_vacation_boats_lunch.jpg);
   background-size: cover;
   height: 500px; }
 
-/* line 566, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 567, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .slide-2 {
   background-image: url(https://s12.postimg.org/e2er9be59/gallery_1.png);
   background-size: cover;
   height: 500px; }
 
-/* line 571, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 572, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .slide-3 {
   background-image: url(https://s12.postimg.org/rklnllqal/gallery_2.png);
   background-size: cover;
   height: 500px; }
 
-/* line 577, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 578, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .slide-4 {
   background-image: url(https://s12.postimg.org/sbedrdsnx/gallery_3.png);
   background-size: cover;
   height: 500px; }
 
-/* line 582, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 583, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .slick-slide {
   border: 10px solid white;
   margin: 10px;
   outline: 0; }
 
-/* line 587, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 588, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .slick-current {
   border: 10px solid #b3b3b3;
   box-shadow: 0px 0px 10px 1px #bfbfbf; }
 
-/* line 592, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 593, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .quote {
   margin: 20px;
   padding: 10px;
@@ -647,15 +648,15 @@ input[type=text]:focus {
   display: -ms-flexbox;
   display: flex;
   justify-content: center; }
-  /* line 600, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 601, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .quote .quote-inner {
     align-content: flex-end; }
-  /* line 603, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 604, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .quote p {
     font-size: 12px;
     padding: 10px;
     margin: 10px; }
-  /* line 608, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 609, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .quote img {
     align-content: center;
     width: 100px;
@@ -664,16 +665,16 @@ input[type=text]:focus {
     margin-top: -50px;
     border-radius: 50%;
     object-fit: cover; }
-  /* line 617, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 618, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .quote .up-quo {
     font-size: 45px;
     float: left; }
-  /* line 621, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+  /* line 622, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
   .quote .down-quo {
     font-size: 45px;
     float: right; }
 
-/* line 629, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 630, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .quote-sign {
   color: #500e5e;
   text-align: center;
@@ -681,7 +682,7 @@ input[type=text]:focus {
   margin: 0 auto;
   font-weight: bold; }
 
-/* line 636, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
+/* line 637, C:/Users/Patrycja/Desktop/programming/patrycjakubiczek.github.io/projects/flywithus/sass/partials/_base.scss */
 .quote-big {
   font-size: 3rem;
   font-family: "Playfair Display", serif;

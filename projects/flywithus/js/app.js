@@ -10,13 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
         faIcon.classList.toggle("fa-times");
 
         var menuList = document.querySelectorAll('.menu li');
-        console.log(menuList);
 
         for (var i = 0; i < menuList.length; i++) {
             var children = menuList[i].addEventListener('click', closeNav, false);
 
             function closeNav() {
-                console.log("click menu");
                 nav.classList.remove("visible");
             }
         }
@@ -25,9 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('resize', function () {
     if (window.matchMedia("(min-width: 769px)").matches) {
         nav.classList.remove("visible");
-        console.log("działa!");
-
-    }
+        }
 });
 
 
