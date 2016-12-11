@@ -5,7 +5,7 @@ $(document).ready(function () {
     //    Zmienna przechowująca pozycję (top) elementu o klasie menu
     var position = menu.offset();
     var top = position.top;
-    console.log(top);
+//    console.log(top);
 
     $(window).scroll(function () {
         //        console.log('scroll scroll');
@@ -46,7 +46,9 @@ $(function() {
       }
     }
   });
+    
+    
 });
     
-   	
+
 });
