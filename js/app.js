@@ -7,19 +7,19 @@ $(document).ready(function () {
     var top = position.top;
 //    console.log(top);
 
-    $(window).scroll(function () {
-        //        console.log('scroll scroll');
-        var scrolling = $(document).scrollTop();
-        //        console.log(scrolling);
-
-        if (top < scrolling) {
-         //   console.log('scroll part 2')
-            menu.addClass('sticky');
-        } else {
-          //  console.log('remove class');
-            menu.removeClass('sticky');
-        }
-    });
+//    $(window).scroll(function () {
+//        //        console.log('scroll scroll');
+//        var scrolling = $(document).scrollTop();
+//        //        console.log(scrolling);
+//
+//        if (top < scrolling) {
+//         //   console.log('scroll part 2')
+//            menu.addClass('sticky');
+//        } else {
+//          //  console.log('remove class');
+//            menu.removeClass('sticky');
+//        }
+//    });
 
     $(window).resize(function () {
         //        console.log('resizing');

@@ -160,6 +160,9 @@ ul {
             padding: 20px 30px;
             font-size: 0.7em;
             font-weight: 600;
+            @media screen and (max-width: 768px) {
+                padding: 20px 10px;
+            }
         }
     }
 }
